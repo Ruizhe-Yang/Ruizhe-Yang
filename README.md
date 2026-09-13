@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/147123508?v=4" width="112" alt="Ruizhe Yang" />
-
 # Ruizhe Yang
 
 **Model-Based Systems Engineering · System Simulation · Safety & Reliability**
