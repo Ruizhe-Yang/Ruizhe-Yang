@@ -1,0 +1,50 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A2D"/>
+      <stop offset="0.52" stop-color="#0B3155"/>
+      <stop offset="1" stop-color="#0B5CAD"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(970 84) rotate(142) scale(380 240)">
+      <stop stop-color="#64B5F6" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#64B5F6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00111F" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glow)"/>
+
+  <g opacity="0.7">
+    <circle cx="1014" cy="90" r="108" stroke="#9CD7FF" stroke-opacity="0.24"/>
+    <circle cx="1014" cy="90" r="74" stroke="#9CD7FF" stroke-opacity="0.18"/>
+    <circle cx="1014" cy="90" r="40" stroke="#9CD7FF" stroke-opacity="0.15"/>
+    <path d="M853 225C921 151 1045 146 1127 214" stroke="#B9E4FF" stroke-opacity="0.22" stroke-width="1.2"/>
+    <path d="M875 256C953 188 1060 192 1138 250" stroke="#B9E4FF" stroke-opacity="0.14" stroke-width="1.2"/>
+    <circle cx="891" cy="214" r="5" fill="#7CC8FF"/>
+    <circle cx="1069" cy="176" r="5" fill="#7CC8FF"/>
+    <circle cx="1136" cy="251" r="4" fill="#7CC8FF"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="58" width="156" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <text x="150" y="78" text-anchor="middle" fill="#D9F0FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.7">ENGINEERING</text>
+  </g>
+
+  <text x="72" y="154" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.2">Ruizhe Yang</text>
+  <text x="74" y="202" fill="#CBE7F8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">Model-Based Systems Engineering · Modeling &amp; Simulation · Safety &amp; Reliability</text>
+
+  <line x1="74" y1="235" x2="650" y2="235" stroke="#FFFFFF" stroke-opacity="0.16"/>
+
+  <text x="74" y="278" fill="#A9D8F4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1.1">SYSML v2  /  MODELICA  /  OPENMODELICA  /  AI-ASSISTED ENGINEERING</text>
+  <text x="74" y="316" fill="#FFFFFF" fill-opacity="0.68" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Executable models · simulation-driven evidence · reproducible engineering workflows</text>
+
+  <rect x="836" y="273" width="270" height="50" rx="25" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.20"/>
+  <text x="971" y="304" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">ruizhe-yang.github.io  →</text>
+</svg>
