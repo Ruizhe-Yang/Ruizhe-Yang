@@ -22,7 +22,8 @@
 
 | Project | Focus |
 | :--- | :--- |
-| **[OneSatSim](https://github.com/Ruizhe-Yang/OneSatSim)** | One-stop Modelica framework for system-level satellite modeling, multi-domain mission simulation, configurable design, and secondary development. |
-| **[modelica-system-level-simulation-skill](https://github.com/Ruizhe-Yang/modelica-system-level-simulation-skill)** | OpenModelica-first Agent Skill for system-level modeling, diagnosis, visualization, validation, and optimization. |
+| **[MOSAIC](https://github.com/Ruizhe-Yang/MOSAIC)** | **Modelica-Oriented System Architecture, Interfaces and Contracts** — a practical modeling specification for system-level, multi-physics Modelica engineering, covering architecture, model roles, interfaces, configuration, and validation. |
+| **[MOSAIC-skill](https://github.com/Ruizhe-Yang/modelica-system-level-simulation-skill)** (repository: `modelica-system-level-simulation-skill`) | An AI Agent Skill that applies the **MOSAIC** specification to real Modelica projects, supporting modeling, configuration, audits, documentation, visualization, diagnostics, and scoped maintenance. |
+| **[OneSatSim](https://github.com/Ruizhe-Yang/OneSatSim)** | A **MOSAIC-based** 12U CubeSat case for system-level satellite modeling, multi-domain mission simulation, configurable design, and engineering analysis. |
 | **[SafetyAssessmentLibrary](https://github.com/Ruizhe-Yang/SafetyAssessmentLibrary)** | Reusable Modelica assets for independent, simulation-driven dynamic safety assessment. |
 | **[FaultReplacementLibrary](https://github.com/Ruizhe-Yang/FaultReplacementLibrary)** | Non-intrusive, component-replacement-based fault injection and fault-effect simulation. |
